@@ -8,5 +8,6 @@ const JsUser = {
 
 }
 
-//console.log(JsUser["email"])
+console.log(JsUser["email"])
 console.log(JsUser["age"])
+console.log(JsUser["isLoggedIn"]);
