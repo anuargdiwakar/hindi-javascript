@@ -7,7 +7,7 @@ tinderUser.isloggedin = false
 //console.log(tinderUser);
 
 const regularuser = {
-    email : "anuragdiwakar@gmail.com"
+    email : "anuragdiwakar@gmail.com" ;
     power: {
         userfullname : 
         {
@@ -18,4 +18,11 @@ const regularuser = {
     }
 }
 
-console.log(regularuser.power.userfullname.firstname);
+//console.log(regularuser.power.userfullname.firstname);
+
+const obj1 = {1: "a" , 2: "b"}
+const obj2 = {3: "a" , 4: "b"}
+
+const obj3={obj1,obj2}
+
+console.log(obj3);
