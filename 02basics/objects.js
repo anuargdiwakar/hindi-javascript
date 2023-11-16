@@ -8,6 +8,18 @@ const JsUser = {
 
 }
 
-console.log(JsUser["email"])
-console.log(JsUser["age"])
-console.log(JsUser["isLoggedIn"]);
+//console.log(JsUser["email"])
+//console.log(JsUser["age"])
+//console.log(JsUser["isLoggedIn"]);
+
+JsUser.email = "ANURAGDIWAKAR@CHATGPT.COM"
+Object.freeze(JsUser)
+ JsUser.email = "anurag@microsoft.com"
+
+ //console.log(JsUser)
+
+ JsUser.greeting = function(){
+    console.log("hello js user");
+ }
+
+ console.log(JsUser.greeting());
