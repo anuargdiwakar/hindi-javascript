@@ -1,4 +1,5 @@
-const jsuser = {
+
+const JsUser = {
     name : "anurg diwakar" ,
     [mySym] : "mykey1" ,
     age : 18 ,
@@ -8,4 +9,4 @@ const jsuser = {
 
 }
 
-console.log(jsuser["location"]);
+console.log(JsUser["email"])
