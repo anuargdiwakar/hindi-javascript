@@ -8,8 +8,9 @@ tinderUser.isloggedin = false
 
 const regularuser = {
     email : "anuragdiwakar@gmail.com"
-    fullname : {
-        userfullname : {
+    power: {
+        userfullname : 
+        {
             firstname:"anurag",
             lastname:"diwakar"
 
@@ -17,4 +18,4 @@ const regularuser = {
     }
 }
 
-console.log(regularuser.fullname.userfullname.firstname);
+console.log(regularuser.power.userfullname.firstname);
